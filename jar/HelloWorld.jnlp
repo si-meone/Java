@@ -2,7 +2,10 @@
 <information>
     <title>hello</title>
     <vendor>simon</vendor>
+    <offline-allowed />
+    <update check="always" policy="prompt-update" />
 </information>
+
 <resources>
     <!-- Application Resources -->
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>

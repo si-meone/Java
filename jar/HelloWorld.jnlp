@@ -1,4 +1,4 @@
-<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/raw/master/jar" version="1">
+<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/raw/master/jar" version="1.01">
 <information>
     <title>hello</title>
     <vendor>simon</vendor>

@@ -3,7 +3,7 @@ import java.awt.Dimension;
 
 public class HelloWorld {
     public HelloWorld() {
-        JFrame frame = new JFrame("HelloWorld3");
+        JFrame frame = new JFrame("HelloWorld4");
         frame.setSize(new Dimension(300, 300));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);

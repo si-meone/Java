@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="" href="HelloWorld.jnlp">
+
+    <information>
+        <title>hello</title>
+        <vendor>world</vendor>
+        <homepage href=""/>
+        <description>JWS</description>
+        <icon href=""/>
+        <offline-allowed/>
+    </information>
+    <security>
+
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <jar href="HelloWorld.jar"/>
+    </resources>
+    <application–desc main–class="HelloWorld"/>
+
+<jnlp/>

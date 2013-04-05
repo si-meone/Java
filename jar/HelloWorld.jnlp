@@ -1,9 +1,9 @@
-<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/raw/master/jar" href="HelloWorld.jnlp" version="3">
+<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/raw/master/jar" href="HelloWorld.jnlp">
 <information>
     <title>hello</title>
     <vendor>simon</vendor>
     <offline-allowed />
-    <update check="always" policy="prompt-update" />
+    <update check="always" policy="always" />
 </information>
 
 <resources>

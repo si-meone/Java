@@ -1,21 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/blob/master/jar" href="HelloWorld.jnlp">
-
-    <information>
-        <title>hello</title>
-        <vendor>world</vendor>
-        <homepage href=""/>
-        <description>JWS</description>
-        <icon href=""/>
-        <offline-allowed/>
-    </information>
-    <security>
-        <all-permissions/>
-    </security>
-    <resources>
-        <j2se version="1.5+"/>
-        <jar href="HelloWorld.jar"/>
-    </resources>
-    <application–desc main–class="HelloWorld"/>
-
-<jnlp/>
+<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/blob/master/jar">
+<information>
+    <title>hello</title>
+    <vendor>simon</vendor>
+</information>
+<resources>
+    <!-- Application Resources -->
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HelloWorld.jar" main="true" />
+</resources>
+<application-desc
+        name="Swing Demo"
+        main-class="HelloWorld"
+        width="300"
+        height="300">
+</application-desc>
+<update check="background"/>
+</jnlp>

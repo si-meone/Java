@@ -1,6 +1,6 @@
 <jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/raw/master/jar" href="DirectorySize.jnlp">
     <information>
-        <title>hello</title>
+        <title>Directory Sizer</title>
         <vendor>simon</vendor>
         <offline-allowed />
         <update check="always" policy="always" />
@@ -12,9 +12,9 @@
         <jar href="DirectorySize.jar" main="true" />
     </resources>
     <application-desc
-            name="Swing Demo"
+            name=">Directory Sizer"
             main-class="DirectorySize"
-            width="300"
-            height="300">
+            width="600"
+            height="800">
     </application-desc>
 </jnlp>

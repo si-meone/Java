@@ -1,0 +1,21 @@
+<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/raw/master/jar" href="DirectorySize.jnlp">
+    <information>
+        <title>hello</title>
+        <vendor>simon</vendor>
+        <offline-allowed />
+        <update check="always" policy="always" />
+    </information>
+
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="DirectorySize.jar" main="true" />
+    </resources>
+    <application-desc
+            name="Swing Demo"
+            main-class="DirectorySize"
+            width="300"
+            height="300">
+    </application-desc>
+    <update check="background"/>
+</jnlp>

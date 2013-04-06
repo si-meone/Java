@@ -5,8 +5,9 @@ import java.util.Date;
 public class HelloWorld {
     public HelloWorld() {
         JFrame frame = new JFrame("HelloWorld7");
+        // frame
 
-        JLabel label = new JLabel(String.valueOf(new Date()));
+        JLabel label = new JLabel();
         label.setFont(new Font("Serif", Font.PLAIN, 36));
         frame.add(label);
         frame.setSize(new Dimension(300, 300));

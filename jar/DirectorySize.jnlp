@@ -17,4 +17,7 @@
             width="600"
             height="800">
     </application-desc>
+    <security>
+        <all-permissions/>
+    </security>
 </jnlp>

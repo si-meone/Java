@@ -1,4 +1,4 @@
-<jnlp spec="1.0+" codebase="https://github.com/snasrallah/jnlp/raw/master/jar" href="DirectorySize.jnlp">
+<jnlp spec="1.0+" codebase="https://github.com/snasrallah/Java/raw/master/jar" href="DirectorySize.jnlp">
     <information>
         <title>Directory Sizer</title>
         <vendor>simon</vendor>
